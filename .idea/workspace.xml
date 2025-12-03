@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4db2c01a-ede0-4934-9c25-b67612451ad5" name="Changes" comment="" />
+    <list default="true" id="4db2c01a-ede0-4934-9c25-b67612451ad5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/SqsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/SqsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sqs-demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sqs-demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sqs-demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sqs-demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
