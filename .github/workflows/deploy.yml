@@ -35,8 +35,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: ecommerce-app
-          environment_name: Ecommerce-app-env
+          application_name: Demo Application
+          environment_name: DemoApplication-env
           region: ${{ secrets.AWS_REGION }}
           version_label: github-${{ github.run_number }}
           deployment_package: deploy.zip
