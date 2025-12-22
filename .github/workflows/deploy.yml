@@ -28,8 +28,8 @@ jobs:
           FAT_JAR=$(ls target/*SNAPSHOT.jar | grep -v original)
           cp $FAT_JAR deploy/application.jar
 
-          # Add Procfile
-          echo "web: java -jar application.jar" > deploy/Procfile
+          # Add Procfile so EB knows how to run the app
+          echo "web: java -jar application.jar --server.port=\$PORT" > deploy/Procfile
 
           cd deploy
           zip ../deploy.zip application.jar Procfile
