@@ -27,8 +27,12 @@ jobs:
           mkdir -p deploy
           FAT_JAR=$(ls target/*SNAPSHOT.jar | grep -v original)
           cp $FAT_JAR deploy/application.jar
+
+          # Add Procfile
+          echo "web: java -jar application.jar" > deploy/Procfile
+
           cd deploy
-          zip ../deploy.zip application.jar
+          zip ../deploy.zip application.jar Procfile
 
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v20
